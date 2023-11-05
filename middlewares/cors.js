@@ -5,7 +5,7 @@ const ACCEPTED_ORIGINS = [
   'http://localhost:8080',
   'http://localhost:5173',
   'http://localhost:5174',
-  'https://vocatest-client.vercel.app'
+  'https://orientatuvocacion.vercel.app'
 ]
 
 export const corsMiddleware = ({ acceptedOrigins = ACCEPTED_ORIGINS } = {}) => cors({
